@@ -1,0 +1,32 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 #{ developerName }
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+        ul
+          each skill in skills
+            li= skill
+        h6 Contact Info
+        ul
+          each val in contactInfo
+            li= val
+        ul
+          each val, index in urls
+            a.button.expanded(href=`${val}`) #{index}
+
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back

@@ -1,0 +1,75 @@
+{
+  "projects": [
+      {
+        "id": 0,
+        "project_name": "Employee Directory",
+        "description":"Fictional employee directory that allows the user to search via name. Also, allows user to click an see additional information of that employee",
+        "technologies": ["JavaScript","HTML5", "CSS3", "API","Asynchronous Javascript"],
+        "live_link": "https://eliq1986.github.io/employee_directory_v2/",
+        "github_link": "https://github.com/eliq1986/employee_directory_v2",
+        "image_urls":["images/directory/directory_main.png","images/directory/directory_modal.png", "images/directory/directory_search.png"]
+
+      },
+      {
+        "id": 1,
+        "project_name": "Tic-Tac-Toe",
+        "description":"Tic-Tac-Toe game against the computer",
+        "technologies": ["JavaScript","HTML5", "CSS3", "JavaScript Classes", "Object Oriented JavaScript"],
+        "live_link": "https://eliq1986.github.io/Tic-tac-toe/",
+        "github_link": "https://github.com/eliq1986/Tic-tac-toe",
+        "image_urls":["images/tic/tic_main.png","images/tic/tic_gameplay.png","images/tic/tic_end.png"]
+
+      },
+      {
+        "id": 2,
+        "project_name": "Phrase Hunter",
+        "description":"A browser-based, word guessing game: 'Phrase Hunter'. I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard or physical keyboard. I themed this project after the movie Endgame.",
+        "technologies": ["JavaScript","HTML5", "CSS3", "CSS3 Animations", "JavaScript Classes", "Object Oriented JavaScript"],
+        "live_link": "https://eliq1986.github.io/oop-game/",
+        "github_link": "https://github.com/eliq1986/employee_directory_v2",
+        "image_urls":["images/phrase/phrase_main.png","images/phrase/phrase_board.png","images/phrase/phrase_end.png"]
+
+      },
+       {
+          "id": 3,
+          "project_name": "Interactive Form",
+          "description":"An interactive registration form for a fictional conference utilizing popular jQuery library to complete this project. ",
+          "technologies": ["JavaScript","HTML5", "CSS3","jQuery", "Regrex"],
+          "live_link": "https://eliq1986.github.io/interactive-form-jQuery/",
+          "github_link": "https://github.com/eliq1986/interactive-form-jQuery",
+          "image_urls":["images/form/form_empty.png","images/form/form_missing.png","images/form/form_confirmation.png"]
+
+        },
+        {
+          "id": 4,
+          "project_name": "Employee Pagination",
+          "description":"Employee pagination page. Dynamically changes when search input is entered or pagination links are clicked.",
+          "technologies": ["JavaScript","HTML5", "CSS3", "CSS3 Animations"],
+          "live_link": "https://eliq1986.github.io/pagination-v2/",
+          "github_link": "https://github.com/eliq1986/pagination-v2",
+          "image_urls":["images/pagination/pagination_main.png","images/pagination/pagination_search.png","images/pagination/pagination_no_results.png"]
+
+        },
+        {
+          "id": 5,
+          "project_name": "Weather App",
+          "description":"Greatest weather app thats ever been created.",
+          "technologies": ["NodeJS","Express","HTML5","CSS3", "API"],
+          "live_link": null,
+          "github_link": "https://github.com/eliq1986/Express-Weather-App",
+          "image_urls":["images/weather/weather_main.png","images/weather/weather_results.png"]
+
+        },
+        {
+          "id": 6,
+          "project_name": "Random Quote Generator",
+          "description":"Everyone loves a good quote, well I took it notch more and created a random quote generator.",
+          "technologies": ["JavaScript","HTML5", "CSS3"],
+          "live_link": "https://eliq1986.github.io/Random-Quote-Generator/",
+          "github_link": "https://github.com/eliq1986/Random-Quote-Generator",
+          "image_urls":["images/quote/quote_1.png","images/quote/quote_2.png","images/quote/quote_3.png"]
+         }
+
+  ]
+
+}
