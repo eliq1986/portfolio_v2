@@ -10,9 +10,9 @@ const { projects } = require("./data");
 const app = express();
 
 
-
 // Static Files
-app.use(express.static("public"));
+app.use("/static", express.static("public"));
+
 
 
 // View Engine
@@ -21,9 +21,7 @@ app.set("view engine", "pug");
 
 // Routes
 app.get("/", (req, res)=> {
-
   res.render("index", { projects });
-
 });
 
 
@@ -31,14 +29,16 @@ app.get("/about", (req, res) => {
   res.render("about", { developerName, contactInfo, skills, urls });
 });
 
-app.get("/projects", (req, res)=> {
-  res.send("Coming soon...");
+app.get("/projects/:id", (req, res)=> {
+const selectedProject =  projects[req.params.id];
+res.render("project", { selectedProject });
 });
+
 
 
 app.use((req, res, next)=> {
   const err = new Error("Not Found");
-  err.status = 404
+  err.status = 404;
   next(err);
 
 });

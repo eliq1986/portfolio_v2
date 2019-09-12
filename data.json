@@ -7,7 +7,7 @@
         "technologies": ["JavaScript","HTML5", "CSS3", "API","Asynchronous Javascript"],
         "live_link": "https://eliq1986.github.io/employee_directory_v2/",
         "github_link": "https://github.com/eliq1986/employee_directory_v2",
-        "image_urls":["images/directory/directory_main.png","images/directory/directory_modal.png", "images/directory/directory_search.png"]
+        "image_urls":["/static/images/directory/directory_main.png"]
 
       },
       {
@@ -17,7 +17,7 @@
         "technologies": ["JavaScript","HTML5", "CSS3", "JavaScript Classes", "Object Oriented JavaScript"],
         "live_link": "https://eliq1986.github.io/Tic-tac-toe/",
         "github_link": "https://github.com/eliq1986/Tic-tac-toe",
-        "image_urls":["images/tic/tic_main.png","images/tic/tic_gameplay.png","images/tic/tic_end.png"]
+        "image_urls":["/static/images/tic/tic_main.png","/static/images/tic/tic_play.png", "/static/images/tic/tic_end.png"]
 
       },
       {
@@ -27,7 +27,7 @@
         "technologies": ["JavaScript","HTML5", "CSS3", "CSS3 Animations", "JavaScript Classes", "Object Oriented JavaScript"],
         "live_link": "https://eliq1986.github.io/oop-game/",
         "github_link": "https://github.com/eliq1986/employee_directory_v2",
-        "image_urls":["images/phrase/phrase_main.png","images/phrase/phrase_board.png","images/phrase/phrase_end.png"]
+        "image_urls":["/static/images/phrase/phrase_main.png", "/static/images/phrase/phrase_play.png", "/static/images/phrase/phrase_end.png"]
 
       },
        {
@@ -37,7 +37,8 @@
           "technologies": ["JavaScript","HTML5", "CSS3","jQuery", "Regrex"],
           "live_link": "https://eliq1986.github.io/interactive-form-jQuery/",
           "github_link": "https://github.com/eliq1986/interactive-form-jQuery",
-          "image_urls":["images/form/form_empty.png","images/form/form_missing.png","images/form/form_confirmation.png"]
+          "image_urls":["/static/images/form/form_main.png", "/static/images/form/form_message.png", "/static/images/form/form_submit.png"]
+
 
         },
         {
@@ -47,7 +48,7 @@
           "technologies": ["JavaScript","HTML5", "CSS3", "CSS3 Animations"],
           "live_link": "https://eliq1986.github.io/pagination-v2/",
           "github_link": "https://github.com/eliq1986/pagination-v2",
-          "image_urls":["images/pagination/pagination_main.png","images/pagination/pagination_search.png","images/pagination/pagination_no_results.png"]
+          "image_urls":["/static/images/pagination/pagination_main.png", "/static/images/pagination/pagination_search.png","/static/images/pagination/pagination_noResults.png"]
 
         },
         {
@@ -57,7 +58,7 @@
           "technologies": ["NodeJS","Express","HTML5","CSS3", "API"],
           "live_link": null,
           "github_link": "https://github.com/eliq1986/Express-Weather-App",
-          "image_urls":["images/weather/weather_main.png","images/weather/weather_results.png"]
+          "image_urls":["/static/images/weather/weather_main.png","/static/images/weather/weather_results.png", "/static/images/weather/weather_sunscreen.png"]
 
         },
         {
@@ -67,7 +68,7 @@
           "technologies": ["JavaScript","HTML5", "CSS3"],
           "live_link": "https://eliq1986.github.io/Random-Quote-Generator/",
           "github_link": "https://github.com/eliq1986/Random-Quote-Generator",
-          "image_urls":["images/quote/quote_1.png","images/quote/quote_2.png","images/quote/quote_3.png"]
+          "image_urls":["/static/images/quote/quote_main.png","/static/images/quote/quote1.png","/static/images/quote/quote2.png"]
          }
 
   ]

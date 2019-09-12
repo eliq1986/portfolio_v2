@@ -35,7 +35,8 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button:hover{
-  background-color: pink;
+  background-color: #5fcf80;
+  color: white;
 }
 
 a[href="https://www.linkedin.com/in/elijah-quesada-39b777160/"]:hover {
@@ -70,8 +71,8 @@ a:hover{
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
   object-fit: scale-down;
-  height: 200px;
-  width: 100px;
+  height: auto;
+  width: 2000px;
 }
 
 .portfolio-me{
