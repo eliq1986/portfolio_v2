@@ -4,7 +4,7 @@ const chalk = require("chalk");
 const chalkError = chalk.cyan.bgBlack;
 
 // custom modules
-const { port, developerName, contactInfo, skills, urls } = require("./config");
+const { port, developerName, contactInfo, skills, urls, portfolioHeading } = require("./config");
 const { projects } = require("./data");
 
 const app = express();
@@ -21,7 +21,7 @@ app.set("view engine", "pug");
 
 // Routes
 app.get("/", (req, res)=> {
-  res.render("index", { projects });
+  res.render("index", { projects, portfolioHeading, developerName });
 });
 
 

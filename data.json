@@ -69,6 +69,15 @@
           "live_link": "https://eliq1986.github.io/Random-Quote-Generator/",
           "github_link": "https://github.com/eliq1986/Random-Quote-Generator",
           "image_urls":["/static/images/quote/quote_main.png","/static/images/quote/quote1.png","/static/images/quote/quote2.png"]
+        },
+        {
+          "id": 7,
+          "project_name": "Photo Gallery",
+          "description":"A simple responsive photo gallery using HTML5, CSS3, JavaScript and jQuery for modal window. ",
+          "technologies": ["JavaScript","HTML5", "CSS3", "jQuery"],
+          "live_link": "https://eliq1986.github.io/TreeH-Project-4/",
+          "github_link": "https://github.com/eliq1986/TreeH-Project-4",
+          "image_urls":["/static/images/photo_gallery/photo_main.png", "/static/images/photo_gallery/photo_search.png", "/static/images/photo_gallery/photo_modal.png"]
          }
 
   ]

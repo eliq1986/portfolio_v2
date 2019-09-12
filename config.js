@@ -1,6 +1,7 @@
 module.exports = {
   port:3000,
   developerName: "ELIJAH QUESADA",
+  portfolioHeading: "WORK.",
   contactInfo: ["626-422-1659", "elijahmquesada@gmail.com"],
   skills:["JavaScript", "Responsive Layout", "jQuery","Git","Node.js","Never skips leg day","API","Express","HTML5","CSS3","Can binge watch The Office" ,"Animations","React"],
   urls: {

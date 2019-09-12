@@ -3,6 +3,7 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 
+
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
@@ -26,9 +27,6 @@ h1,h2,h3,h4,h5,p{
   border-radius: 5px;
 }
 
-.text-light{
-  color: #666;
-}
 
 .button{
   background-color: #333;
@@ -75,16 +73,21 @@ a:hover{
   width: 2000px;
 }
 
+.make_big {
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #66b2b2;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: white;
   }
 
   .portfolio-me a{
@@ -166,4 +169,10 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 4.5em;
+  }
 }
