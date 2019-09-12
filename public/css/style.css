@@ -171,6 +171,12 @@ a:hover{
     line-height: 25px;
 }
 
+
+
+ .portfolio-index, .fadeIn {
+  display: none;
+}
+
 @media (min-width: 800px) {
   h1 {
     font-size: 4.5em;

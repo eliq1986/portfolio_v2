@@ -3,7 +3,7 @@ extends layout.pug
 block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
-  article.grid-container.portfolio-intro.portfolio-project
+  article.grid-container.portfolio-intro.portfolio-project.fadeIn
     .grid-x
       .cell.small-6.medium-9.large-9
         h1 #{ developerName }
@@ -28,5 +28,5 @@ block content
           each val, index in urls
             a.button.expanded(href=`${val}`) #{index}
 
-  nav.grid-container.portfolio-breadcrumb
+  nav.grid-container.portfolio-breadcrumb.fadeIn
     a(href='/') ← Back
