@@ -26,7 +26,7 @@ block content
             li= val
         ul
           each val, index in urls
-            a.button.expanded(href=`${val}`) #{index}
+            a.button.expanded(target='_blank' href=`${val}`) #{index}
 
   nav.grid-container.portfolio-breadcrumb.fadeIn
     a(href='/') ← Back
