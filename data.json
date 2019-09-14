@@ -7,7 +7,7 @@
         "technologies": ["JavaScript","HTML5", "CSS3", "API","Asynchronous Javascript"],
         "live_link": "https://eliq1986.github.io/employee_directory_v2/",
         "github_link": "https://github.com/eliq1986/employee_directory_v2",
-        "image_urls":["/static/images/directory/directory_main.png"]
+        "image_urls":["/static/images/directory/directory_main.png", "/static/images/directory/directory_search.png", "/static/images/directory/directory_modal.png"]
 
       },
       {
