@@ -3,9 +3,7 @@ $(document).foundation();
 
 $( document ).ready(function() {
 
-
-const colors = [,, , ];
-
+// contains /about route button colors and setTimeout
 const buttons = [
   {
     color:"#0077B5",
@@ -39,12 +37,15 @@ const buttons = [
 
 
  buttonExpanded.each(function(index, value) {
-   const { color, startTime, endTime } = buttons[index];
-   changeColors( startTime, endTime, color, index);
+   console.log(this);
+   const buttonSelcted = buttons[index];
+   changeColors(buttonSelcted, index);
+   addHover(this);
  });
 
- function changeColors(startTime, stopTime, color, buttonIndex) {
 
+ function changeColors(buttonSelected, buttonIndex) {
+ const { color, startTime, endTime } = buttonSelected
    setTimeout(function() {
        buttonExpanded.eq(buttonIndex).css({background: color});
 
@@ -52,12 +53,38 @@ const buttons = [
 
    setTimeout(function() {
        buttonExpanded.eq(buttonIndex).css("background", "#333");
-   }, stopTime)
+   }, endTime);
+
+
  }
 
+ buttonExpanded.eq(0).hover(function() {
+   this.style.background = "#1DA1F2";
+ }, function() {
+   this.style.background = "#333";
+ });
 
-buttonExpanded.eq(0).hover(function() {
-  this.style.background = "#0077B5";
+
+
+buttonExpanded.eq(1).hover(function() {
+  this.style.background = "#1DA1F2";
+}, function() {
+  this.style.background = "#333";
 });
+
+buttonExpanded.eq(2).hover(function() {
+  this.style.background = "#c9510c";
+}, function() {
+  this.style.background = "#333";
+});
+
+
+buttonExpanded.eq(3).hover(function() {
+  this.style.background = "#5fcf80";
+}, function() {
+  this.style.background = "#333";
+});
+
+
 
 });
