@@ -40,7 +40,6 @@ const buttons = [
    console.log(this);
    const buttonSelcted = buttons[index];
    changeColors(buttonSelcted, index);
-   addHover(this);
  });
 
 
