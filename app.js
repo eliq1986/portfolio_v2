@@ -5,7 +5,7 @@ const chalkError = chalk.cyan.bgBlack;
 
 // custom modules
 const { port, developerName, contactInfo, skills, urls, portfolioHeading } = require("./config");
-const { projects } = require("./data");
+const routes = require("./routes");
 
 const app = express();
 
@@ -17,22 +17,9 @@ app.use("/static", express.static("public"));
 
 // View Engine
 app.set("view engine", "pug");
+app.use(routes);
 
 
-// Routes
-app.get("/", (req, res)=> {
-  res.render("index", { projects, portfolioHeading, developerName });
-});
-
-
-app.get("/about", (req, res) => {
-  res.render("about", { developerName, contactInfo, skills, urls });
-});
-
-app.get("/projects/:id", (req, res)=> {
-const selectedProject =  projects[req.params.id];
-res.render("project", { selectedProject });
-});
 
 
 

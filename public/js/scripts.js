@@ -84,5 +84,11 @@ socialMediaButtons.eq(3).hover(function() {
 });
 
 
+const projectCards = $(".cell");
+projectCards.on("click",function() {
+  console.log(this);
+  console.log("Hello world")
+});
+
 
 });
