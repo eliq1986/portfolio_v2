@@ -1,4 +1,4 @@
-/* {
+ {
   "id": 7,
   "project_name": "Youtube App",
   "description":"Using Youtube API, a fully functional Youtube prototype using React",
@@ -8,16 +8,7 @@
   "image_urls":[]
 
 },
-{
-  "id": 8,
-  "project_name": "Website Scraper",
-  "description": "NodeJS command line application that scrapes a particular website and creates a file with shirt data",
-  "technologies": ["NodeJS","Async JavaScript", "NPM"],
-  "live_link": null,
-  "github_link": "https://github.com/eliq1986/Website-Scraper",
-  "image_urls":[]
-
-},
+,
 {
   "id": 9,
   "project_name": "Flickr App",
@@ -37,4 +28,4 @@
   "github_link": "https://github.com/eliq1986/TREEHOUSE-8",
   "image_urls":[]
 
-}  */
+}  

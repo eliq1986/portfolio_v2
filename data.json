@@ -78,7 +78,17 @@
           "live_link": "https://eliq1986.github.io/TreeH-Project-4/",
           "github_link": "https://github.com/eliq1986/TreeH-Project-4",
           "image_urls":["/static/images/photo_gallery/photo_main.png", "/static/images/photo_gallery/photo_search.png", "/static/images/photo_gallery/photo_modal.png"]
-         }
+        },
+        {
+          "id": 8,
+          "project_name": "Flickreact",
+          "description": "A modern version of popular photo site Flickr. Using Flickrs API, display photos that also includes links and search results.",
+          "technologies": ["React","React-Router","JavaScript","Flickr API", "NPM", "CSS Animations"],
+          "live_link": null,
+          "github_link": "https://github.com/eliq1986/Website-Scraper",
+          "image_urls":["/static/images/flickr/flickr_main.png", "/static/images/flickr/flickr_search.png", "/static/images/flickr/flickr_noresults.png"]
+
+        }
 
   ]
 

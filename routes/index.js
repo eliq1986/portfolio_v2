@@ -15,8 +15,7 @@ router.get("/about", (req, res) => {
 });
 
 router.get("/projects/:id", (req, res)=> {
-const selectedProject =  projects[req.params.id];
-res.render("project", { selectedProject });
+res.render("project", { selectedProject: projects[req.params.id] });
 });
 
 
