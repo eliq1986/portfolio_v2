@@ -6,21 +6,25 @@ $( document ).ready(function() {
 // contains /about route button colors and setTimeout
 const buttons = [
   {
+    company: "linkedin",
     color:"#0077B5",
     startTime: 400,
     endTime: 800
   },
 {
+    company: "twitter",
     color: "#1DA1F2",
     startTime: 800,
-    endTime: 1200,
+    endTime: 1200
   },
   {
+    company: "github",
     color:"#c9510c",
     startTime:1200,
-    endTime: 1600,
+    endTime: 1600
   },
   {
+    company: "treehouse",
     color: "#5fcf80",
     startTime: 1600,
     endTime: 2000
@@ -72,12 +76,9 @@ const buttons = [
 // func accepts 1 arg, index integer
 function addHoverColor(index) {
   socialMediaButtons.eq(index).hover(function() {
-    const { color } = buttons[index]
-    this.style.background = color;
-  }, function() {
-    this.style.background = "#333";
-  });
-
+    const { color, company } = buttons[index];
+    $(this).toggleClass(`${company} hover-effect`)
+});
 }
 
 

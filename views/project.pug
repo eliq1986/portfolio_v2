@@ -17,7 +17,7 @@ block content
          each technology in selectedProject.technologies
            li= technology
         if selectedProject.live_link
-          a.button.expanded(target='_blank' href=`${selectedProject.live_link}`) Live Demo
-        a.button.expanded(target='_blank' href=`${selectedProject.github_link}`) GitHub Repo
+          a.button.expanded(target='_blank' href=`${selectedProject.live_link}` class='make_yellow') Live Demo
+        a.button.expanded(target='_blank' href=`${selectedProject.github_link}` class='make_yellow') GitHub Repo
     each image in selectedProject.image_urls
       img.image(src= image)

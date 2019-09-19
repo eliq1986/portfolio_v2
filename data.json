@@ -13,7 +13,7 @@
       {
         "id": 1,
         "project_name": "Tic-Tac-Toe",
-        "description":"Tic-Tac-Toe game against the computer",
+        "description":"Tic-Tac-Toe game against the computer, using OOP paradigm.",
         "technologies": ["JavaScript","HTML5", "CSS3", "JavaScript Classes", "Object Oriented JavaScript"],
         "live_link": "https://eliq1986.github.io/Tic-tac-toe/",
         "github_link": "https://github.com/eliq1986/Tic-tac-toe",
@@ -23,7 +23,7 @@
       {
         "id": 2,
         "project_name": "Phrase Hunter",
-        "description":"A browser-based, word guessing game: 'Phrase Hunter'. I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard or physical keyboard. I themed this project after the movie Endgame.",
+        "description":"A browser-based, word guessing game: 'Phrase Hunter'. I used JavaScript and OOP (Object-Oriented Programming) paradigm to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard or physical keyboard. I themed this project after the movie Endgame.",
         "technologies": ["JavaScript","HTML5", "CSS3", "CSS3 Animations", "JavaScript Classes", "Object Oriented JavaScript"],
         "live_link": "https://eliq1986.github.io/oop-game/",
         "github_link": "https://github.com/eliq1986/employee_directory_v2",
@@ -33,7 +33,7 @@
        {
           "id": 3,
           "project_name": "Interactive Form",
-          "description":"An interactive registration form for a fictional conference utilizing popular jQuery library to complete this project. ",
+          "description":"An interactive registration form for a fictional conference utilizing popular jQuery library to complete this project. Project includes form validation with confirmation.",
           "technologies": ["JavaScript","HTML5", "CSS3","jQuery", "Regrex"],
           "live_link": "https://eliq1986.github.io/interactive-form-jQuery/",
           "github_link": "https://github.com/eliq1986/interactive-form-jQuery",
@@ -54,7 +54,7 @@
         {
           "id": 5,
           "project_name": "Weather App",
-          "description":"Greatest weather app thats ever been created.",
+          "description":"Greatest weather app thats ever been created. This weather app will get the weather for you and inform the user if they should bring a jacket.",
           "technologies": ["NodeJS","Express","HTML5","CSS3", "API"],
           "live_link": null,
           "github_link": "https://github.com/eliq1986/Express-Weather-App",
@@ -73,7 +73,7 @@
         {
           "id": 7,
           "project_name": "Photo Gallery",
-          "description":"A simple responsive photo gallery using HTML5, CSS3, JavaScript and jQuery for modal window. ",
+          "description":"A simple responsive photo gallery using HTML5, CSS3, JavaScript and jQuery for modal window. Also includes a search bar that searches by photo attributes. ",
           "technologies": ["JavaScript","HTML5", "CSS3", "jQuery"],
           "live_link": "https://eliq1986.github.io/TreeH-Project-4/",
           "github_link": "https://github.com/eliq1986/TreeH-Project-4",
@@ -82,7 +82,7 @@
         {
           "id": 8,
           "project_name": "Flickreact",
-          "description": "A modern version of popular photo site Flickr. Using Flickrs API, display photos that also includes links and search results.",
+          "description": "A modern version of popular photo site Flickr. Using Flickrs API with React, it display photos that also includes links and search results.",
           "technologies": ["React","React-Router","JavaScript","Flickr API", "NPM", "CSS Animations"],
           "live_link": null,
           "github_link": "https://github.com/eliq1986/Website-Scraper",

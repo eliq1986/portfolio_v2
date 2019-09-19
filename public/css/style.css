@@ -156,6 +156,14 @@ a:hover{
 
   .portfolio-meta .button{
     margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .remove-border-color {
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background: rgb(51, 51, 51);
   }
 
 .portfolio-project p{
@@ -185,6 +193,40 @@ a:hover{
   font-size: 3em;
   text-align: center;
 }
+
+.hover-effect {
+  background: white !important;
+  border-radius: 1em;
+  font-weight: bold !important;
+}
+
+.make_yellow:hover {
+  background: #FCC875 !important;
+}
+
+.treehouse{
+  border: 3px solid #5fcf80;
+  color: #5fcf80 !important;
+  }
+
+.linkedin {
+  border: 3px solid #0077B5;
+  color: #0077B5 !important;
+
+  }
+
+.twitter {
+  border: 3px solid #1DA1F2;
+  color: #1DA1F2 !important;
+
+  }
+
+.github{
+  border: 3px solid #c9510c;
+  color: #c9510c !important;
+
+  }
+
 
 @media (min-width: 800px) {
   h1 {
