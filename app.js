@@ -9,6 +9,7 @@ const routes = require("./routes");
 
 const app = express();
 
+let webPort = process.env.PORT || port;
 
 // Static Files
 app.use("/static", express.static("public"));
@@ -41,6 +42,6 @@ app.use((err,req,res,next)=>  {
 
 
 
-app.listen(port, ()=> {
-  console.log(`App running on port ${port}`)
+app.listen(webPort, ()=> {
+  console.log(`App running on port ${webPort}`)
 });
