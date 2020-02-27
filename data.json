@@ -57,7 +57,7 @@
           "description":"Greatest weather app thats ever been created. This weather app will get the weather for you and inform the user if they should bring a jacket.",
           "technologies": ["NodeJS","Express","HTML5","CSS3", "API"],
           "live_link": null,
-          "github_link": "https://github.com/eliq1986/Express-Weather-App",
+          "github_link": "https://github.com/eliq1986/weather-app",
           "image_urls":["/static/images/weather/weather_main.png","/static/images/weather/weather_results.png", "/static/images/weather/weather_sunscreen.png"]
 
         },
