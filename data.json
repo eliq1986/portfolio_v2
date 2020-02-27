@@ -63,12 +63,12 @@
         },
         {
           "id": 6,
-          "project_name": "Random Quote Generator",
-          "description":"Everyone loves a good quote, well I took it notch more and created a random quote generator.",
-          "technologies": ["JavaScript","HTML5", "CSS3"],
-          "live_link": "https://eliq1986.github.io/Random-Quote-Generator/",
-          "github_link": "https://github.com/eliq1986/Random-Quote-Generator",
-          "image_urls":["/static/images/quote/quote_main.png","/static/images/quote/quote1.png","/static/images/quote/quote2.png"]
+          "project_name": "Urgent Care Pricing",
+          "description":"This Project was built with React. Reason for building this project was the fact my current company utilizes MSFT excel spreadsheet for pricing which results in pricing discrepancy.",
+          "technologies": ["React", "JavaScript", "CSS3"],
+          "live_link": "https://urgent-care.now.sh/",
+          "github_link": "https://github.com/eliq1986/Urgent-Care",
+          "image_urls":["/static/images/urgent_care/uc_main.png","/static/images/urgent_care/uc_selection.png","/static/images/urgent_care/uc_buying.png"]
         },
         {
           "id": 7,
