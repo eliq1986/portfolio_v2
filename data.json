@@ -72,12 +72,13 @@
         },
         {
           "id": 7,
-          "project_name": "Photo Gallery",
-          "description":"A simple responsive photo gallery using HTML5, CSS3, JavaScript and jQuery for modal window. Also includes a search bar that searches by photo attributes. ",
-          "technologies": ["JavaScript","HTML5", "CSS3", "jQuery"],
-          "live_link": "https://eliq1986.github.io/TreeH-Project-4/",
-          "github_link": "https://github.com/eliq1986/TreeH-Project-4",
-          "image_urls":["/static/images/photo_gallery/photo_main.png", "/static/images/photo_gallery/photo_search.png", "/static/images/photo_gallery/photo_modal.png"]
+          "project_name": "COVID-19 TRACKER",
+          "description":"App for tracking positive COVID-19 test in the USA for the last 28 days. The site pulls data every hour. It also includes side by side State comparison bar graph.",
+          "technologies": ["JavaScript","HTML5", "CSS3"],
+          "live_link": "https://covid-state-tracker.now.sh/",
+          "github_link": "https://github.com/eliq1986/covid-state-tracker",
+          "image_urls":["/static/images/covid_tracker/main_covid.png","/static/images/covid_tracker/covid_legend.png", "/static/images/covid_tracker/covid_compare.png"]
+
         },
         {
           "id": 8,
